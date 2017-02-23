@@ -13,6 +13,9 @@
 		7ECFCAA71E5EA9D000A647AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECFCAA61E5EA9D000A647AE /* Assets.xcassets */; };
 		7ECFCAAA1E5EA9D000A647AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECFCAA81E5EA9D000A647AE /* LaunchScreen.storyboard */; };
 		7ECFCAB51E5EA9D000A647AE /* CCPSliderMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFCAB41E5EA9D000A647AE /* CCPSliderMenuTests.swift */; };
+		7ECFCAC11E5EAA3400A647AE /* MenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFCAC01E5EAA3400A647AE /* MenuProtocol.swift */; };
+		7ECFCAC31E5EAAF500A647AE /* MenuAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFCAC21E5EAAF500A647AE /* MenuAnimation.swift */; };
+		7ECFCAC51E5EB3B700A647AE /* MenuTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECFCAC41E5EB3B700A647AE /* MenuTransitionAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7ECFCAB01E5EA9D000A647AE /* CCPSliderMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPSliderMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECFCAB41E5EA9D000A647AE /* CCPSliderMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCPSliderMenuTests.swift; sourceTree = "<group>"; };
 		7ECFCAB61E5EA9D000A647AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECFCAC01E5EAA3400A647AE /* MenuProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuProtocol.swift; sourceTree = "<group>"; };
+		7ECFCAC21E5EAAF500A647AE /* MenuAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAnimation.swift; sourceTree = "<group>"; };
+		7ECFCAC41E5EB3B700A647AE /* MenuTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		7ECFCA9E1E5EA9D000A647AE /* CCPSliderMenu */ = {
 			isa = PBXGroup;
 			children = (
+				7ECFCABF1E5EAA0F00A647AE /* SliderMenu */,
 				7ECFCA9F1E5EA9D000A647AE /* AppDelegate.swift */,
 				7ECFCAA11E5EA9D000A647AE /* ViewController.swift */,
 				7ECFCAA31E5EA9D000A647AE /* Main.storyboard */,
@@ -94,6 +101,16 @@
 				7ECFCAB61E5EA9D000A647AE /* Info.plist */,
 			);
 			path = CCPSliderMenuTests;
+			sourceTree = "<group>";
+		};
+		7ECFCABF1E5EAA0F00A647AE /* SliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7ECFCAC01E5EAA3400A647AE /* MenuProtocol.swift */,
+				7ECFCAC21E5EAAF500A647AE /* MenuAnimation.swift */,
+				7ECFCAC41E5EB3B700A647AE /* MenuTransitionAnimation.swift */,
+			);
+			name = SliderMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECFCAA21E5EA9D000A647AE /* ViewController.swift in Sources */,
+				7ECFCAC11E5EAA3400A647AE /* MenuProtocol.swift in Sources */,
 				7ECFCAA01E5EA9D000A647AE /* AppDelegate.swift in Sources */,
+				7ECFCAC51E5EB3B700A647AE /* MenuTransitionAnimation.swift in Sources */,
+				7ECFCAC31E5EAAF500A647AE /* MenuAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
